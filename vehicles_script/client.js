@@ -159,7 +159,7 @@ const emitMessage = ({ message, type }) => {
 }
 
 const handleSuccessCallback = () => {
-    const message = 'Carro obtido com sucesso!'
+    const message = 'Veículo obtido com sucesso!'
     const type = 'success'
 
     return emitMessage({
