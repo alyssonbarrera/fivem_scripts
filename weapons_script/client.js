@@ -168,5 +168,5 @@ const grantAllWeaponsToPlayer = () => {
     handleSuccessCallback('grantAllWeapons')
 }
 
-RegisterCommand('arma', grantWeaponToPlayer) // input ex.: arma rifle ou arma rifle 500
-RegisterCommand('armas', grantAllWeaponsToPlayer) // input ex.: armas
+RegisterCommand('arma', grantWeaponToPlayer) // /arma <nome_da_arma> || /arma <nome_da_arma> <quantidade_de_munição>
+RegisterCommand('armas', grantAllWeaponsToPlayer) // /armas
